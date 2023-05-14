@@ -1,0 +1,22 @@
+.home {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("./fondo6.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 10rem;
+    height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8vw;
+}
+
+.homeContainer h1 {
+    font-size: 2.5rem;
+}
+
+.text {
+    margin-bottom: 1px;
+}
