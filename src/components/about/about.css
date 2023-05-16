@@ -1,0 +1,25 @@
+.contAbout {
+    background-image: linear-gradient(to right, black, rgb(43, 43, 43));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    color: white;
+    max-width: 800px;
+    margin-top: 20vh;
+}
+
+.about h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.bio {
+    box-shadow: 3px 3px 3px 1px #819bc26c;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, #0a192f, #325180);
+    padding: 20px;
+    margin: 15px;
+}

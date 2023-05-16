@@ -4,19 +4,67 @@
         url("./fondo6.jpg");
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
     color: rgb(255, 255, 255);
     padding: 10rem;
     height: 100vh;
-    font-family: 'Press Start 2P', cursive;
     font-size: 0.8vw;
 }
 
 .homeContainer h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+    font-style: italic;
+}
+
+/* .homeContainer {
+    overflow: hidden;
+} */
+
+.homeContainer h2 {
+    display: inline-block;
+    overflow: hidden;
+    border-right: .15em solid rgb(136, 185, 231);
+    white-space: nowrap;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(136, 185, 231);
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: rgb(136, 185, 231);
+    }
 }
 
 .text {
     margin-bottom: 1px;
 }
+
+/* @media (max-width: 768px) {
+    .homeContainer h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .homeContainer h2 {
+        font-size: 20px;
+    }
+} */

@@ -9,15 +9,18 @@ const MyNavbar = () => {
 
     return (
         <>
-            <Navbar className='navBar sticky-top' variant="dark">
+            <Navbar className='navBar sticky-top' variant="dark" expand="lg">
                 <Container>
-                    <Nav className="mx-auto">
-                        <Nav.Link className='me-3' href="#home">Inicio</Nav.Link>
-                        <Nav.Link className='me-3' href="#about">Acerca de mi</Nav.Link>
-                        <Nav.Link className='me-3' href="#skills">Habilidades</Nav.Link>
-                        <Nav.Link className='me-3' href="#proyects">Proyectos</Nav.Link>
-                        <Nav.Link className='me-3' href="#contact">Contacto</Nav.Link>
-                    </Nav>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="mx-auto">
+                            <Nav.Link className='me-3' href="#home">Inicio</Nav.Link>
+                            <Nav.Link className='me-3' href="#about">Acerca de mi</Nav.Link>
+                            <Nav.Link className='me-3' href="#skills">Habilidades</Nav.Link>
+                            <Nav.Link className='me-3' href="#proyects">Proyectos</Nav.Link>
+                            <Nav.Link className='me-3' href="#contact">Contacto</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </>
