@@ -4,6 +4,10 @@
     z-index: 1;
 }
 
+.nav-link.active {
+    color: #FFB800 !important;
+}
+
 .btnNavBar {
     display: flex;
     flex-direction: row;

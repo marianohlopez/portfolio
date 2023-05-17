@@ -9,31 +9,39 @@ const Skills = () => {
                 <img src="./assets/html.png" alt="html icon" />
                 <p>HTML</p>
             </div>
-            <div>
+            <div className="imgCont">
                 <img src="./assets/css.png" alt="css icon" />
                 <p>CSS</p>
             </div>
-            <div>
+            <div className="imgCont">
                 <img src="./assets/javascript.png" alt="js icon" />
                 <p>JAVASCRIPT</p>
             </div>
-            <div>
+            <div className="imgCont">
                 <img src="./assets/react.png" alt="react icon" />
                 <p>REACT</p>
             </div>
-            <div>
+            <div className="imgCont">
+                <img src="./assets/bootstrap.png" alt="bootstrap icon" />
+                <p>BOOTSTRAP</p>
+            </div>
+            <div className="imgCont">
                 <img src="./assets/github.png" alt="github icon" />
                 <p>GITHUB</p>
             </div>
-            <div>
+            <div className="imgCont">
                 <img src="./assets/node.png" alt="node icon" />
                 <p>NODEJS</p>
             </div>
-            <div>
+            <div className="imgCont">
                 <img src="./assets/mongo.png" alt="mongo icon" />
                 <p>MONGO</p>
             </div>
-            <div>
+            <div className="imgCont">
+                <img src="./assets/mysql.png" alt="mysql icon" />
+                <p>MYSQL</p>
+            </div>
+            <div className="imgCont">
                 <img src="./assets/firebase.png" alt="firebase icon" />
                 <p>FIREBASE</p>
             </div>
