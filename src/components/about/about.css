@@ -1,12 +1,13 @@
 .contAbout {
-    background-image: linear-gradient(to right, black, rgb(43, 43, 43));
+    /* background-image: linear-gradient(to right, black, rgb(43, 43, 43)); */
     height: 100vh;
     display: flex;
     justify-content: center;
+    font-style: italic;
 }
 
 .about {
-    color: white;
+    color: #FFB800;
     max-width: 800px;
     margin-top: 20vh;
 }
@@ -17,7 +18,8 @@
 }
 
 .bio {
-    box-shadow: 3px 3px 3px 1px #819bc26c;
+    color: white;
+    box-shadow: 3px 3px 3px 1px;
     border-radius: 6px;
     background-image: linear-gradient(to right, #0a192f, #325180);
     padding: 20px;

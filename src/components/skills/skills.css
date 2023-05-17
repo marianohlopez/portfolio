@@ -1,0 +1,36 @@
+.skillsTitle {
+    text-align: center;
+    font-style: italic;
+    color: #FFB800;
+}
+
+.skillsCont {
+    max-width: 80%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.skillsCont div {
+    /* margin: 20px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #FFB800;
+    width: 90%;
+    box-shadow: 2px 2px 2px 1px #FFB800;
+}
+
+.skillsCont img {
+    padding: 20px;
+    max-width: 85%;
+    max-height: 85%;
+
+}
