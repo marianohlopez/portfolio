@@ -17,7 +17,7 @@ const MyNavbar = () => {
                             <Nav.Link className='me-3' href="#home">Inicio</Nav.Link>
                             <Nav.Link className='me-3' href="#about">Acerca de mi</Nav.Link>
                             <Nav.Link className='me-3' href="#skills">Habilidades</Nav.Link>
-                            <Nav.Link className='me-3' href="#proyects">Proyectos</Nav.Link>
+                            <Nav.Link className='me-3' href="#projects">Proyectos</Nav.Link>
                             <Nav.Link className='me-3' href="#contact">Contacto</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
