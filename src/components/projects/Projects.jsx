@@ -13,8 +13,8 @@ const Projects = () => {
                     <span>
                         <Button className='me-3' href="https://github.com/marianohlopez/backend-ecommerce" target="_blank"
                             variant="outline-secondary">CODE</Button>
-                        <Button href="https://backend-ecommerce-production-444c.up.railway.app/" target="_blank"
-                            variant="outline-secondary">DEPLOY</Button>
+                        <Button href="https://backend-ecommerce-vtjo.onrender.com" target="_blank"
+                            variant="outline-secondary">APP</Button>
                     </span>
                 </div>
             </div>
@@ -26,7 +26,7 @@ const Projects = () => {
                         <Button className='me-3' href="https://github.com/marianohlopez/relay" target="_blank"
                             variant="outline-secondary">CODE</Button>
                         <Button href="https://relay.com.ar/" target="_blank"
-                            variant="outline-secondary">DEPLOY</Button>
+                            variant="outline-secondary">APP</Button>
                     </span>
                 </div>
             </div>
@@ -38,7 +38,7 @@ const Projects = () => {
                         <Button className='me-3' href="https://github.com/marianohlopez/Ecommerce-Lopez" target="_blank"
                             variant="outline-secondary">CODE</Button>
                         <Button href="https://ecommerce-lopez.vercel.app/" target="_blank"
-                                variant="outline-secondary">DEPLOY</Button>
+                                variant="outline-secondary">APP</Button>
                     </span>
                 </div>
             </div>
@@ -50,7 +50,7 @@ const Projects = () => {
                         <Button className='me-3' href="https://github.com/marianohlopez/weather-app" target="_blank"
                             variant="outline-secondary">CODE</Button>
                         <Button href="https://weather-app-wheat-psi.vercel.app/" target="_blank"
-                                variant="outline-secondary">DEPLOY</Button>
+                                variant="outline-secondary">APP</Button>
                     </span>
                 </div>
             </div>
@@ -62,7 +62,7 @@ const Projects = () => {
                         <Button className='me-3' href="https://github.com/marianohlopez/Comercio-Zingueria" target="_blank"
                             variant="outline-secondary">CODE</Button>
                         <Button href="https://comercio-zingueria.vercel.app/" target="_blank"
-                                variant="outline-secondary">DEPLOY</Button>
+                                variant="outline-secondary">APP</Button>
                     </span>
                 </div>
             </div>
@@ -74,7 +74,7 @@ const Projects = () => {
                         <Button className='me-3' href="https://github.com/marianohlopez/Proyecto-web" target="_blank"
                             variant="outline-secondary">CODE</Button>
                         <Button href="https://yogamariaesther.online/" target="_blank"
-                                variant="outline-secondary">DEPLOY</Button>
+                                variant="outline-secondary">APP</Button>
                     </span>
                 </div>
             </div>
@@ -86,7 +86,7 @@ const Projects = () => {
                         <Button className='me-3' href="https://github.com/marianohlopez/currency-converter" target="_blank"
                             variant="outline-secondary">CODE</Button>
                         <Button href="https://currency-converter-mhl.netlify.app/" target="_blank"
-                                variant="outline-secondary">DEPLOY</Button>
+                                variant="outline-secondary">APP</Button>
                     </span>
                 </div>
             </div>

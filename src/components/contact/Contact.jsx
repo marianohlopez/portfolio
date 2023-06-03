@@ -1,11 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Container } from 'react-bootstrap';
+import emailjs from 'emailjs-com';
+import configParams from '../../config/config';
 
 const Contact = () => {
+
+  const form = useRef();
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -22,51 +26,32 @@ const Contact = () => {
     setMessage(event.target.value);
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
-    const transporter = nodemailer.createTransport({
-      service: 'Gmail',
-      auth: {
-        user: 'tu-email@gmail.com',
-        pass: 'tu-contraseña',
-      },
-    });
-
-    const mailOptions = {
-      from: 'tu-email@gmail.com',
-      to: 'tudireccion@email.com',
-      subject: 'Nuevo mensaje de formulario',
-      html: `
-            <h3 style="color: blue;">Email del cliente: ${order.email}</h3>
-            <h4>Orden nº: ${order.order}</h4>
-            <h4>Fecha y hora: ${order.time}</h4>
-            <h4>Mensaje:</h4>
-            <p>${message}</p>`,
-      text: `Email: ${email}\n\nMensaje: ${message}`,
-    };
-
-    transporter.sendMail(mailOptions, function (error, info) {
-      if (error) {
-        console.log(error);
-      } else {
-        console.log('Correo electrónico enviado: ' + info.response);
-      }
-    });
-
-    setEmail('');
-    setMessage('');
+    emailjs.sendForm(configParams.SERVICE_ID, configParams.TEMPLATE_ID, form.current, configParams.API_KEY)
+      .then(() => {
+        alert('¡El mensaje ha sido enviado con éxito!');
+        setName('');
+        setEmail('');
+        setMessage('');
+      })
+      .catch((error) => {
+        console.error(error);
+        alert('Ocurrió un error al enviar el mensaje.');
+      });
   };
 
   return (
     <Container>
-      <h3 className="title">Contacto</h3>
+      <h3 id='contact' className="title">Contacto</h3>
       <Row className="justify-content-center">
-        <Col xs={11} lg={6}>
-          <Form onSubmit={handleSubmit}>
+        <Col xs={11} lg={7}>
+          <Form ref={form} onSubmit={handleSubmit}>
             <Form.Group controlId="form.ControlInput1">
               <Form.Control className='mt-3'
                 type="text"
+                name='user_name'
                 placeholder="Nombre"
                 value={name}
                 onChange={handleNameChange}
@@ -75,6 +60,7 @@ const Contact = () => {
             <Form.Group controlId="form.ControlInput2">
               <Form.Control className='mt-3'
                 type="email"
+                name='user_email'
                 placeholder="Email"
                 value={email}
                 onChange={handleEmailChange}
@@ -83,7 +69,8 @@ const Contact = () => {
             <Form.Group controlId="form.ControlTextarea1">
               <Form.Control className='mt-3'
                 as="textarea"
-                rows={3}
+                name='message'
+                rows={5}
                 value={message}
                 onChange={handleMessageChange}
                 placeholder="Mensaje"
