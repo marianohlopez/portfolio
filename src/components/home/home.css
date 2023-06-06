@@ -50,8 +50,8 @@
     }
 }
 
-.text {
-    margin-bottom: 1px;
+.downloadCv {
+    display: block !important;
 }
 
 @media (max-width: 768px) {

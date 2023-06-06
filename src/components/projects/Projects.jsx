@@ -9,7 +9,7 @@ const Projects = () => {
             <div className="projectImg">
                 <img src="./assets/projects/backend-ecommerce.png" alt="backend-ecommerce image" />
                 <div>
-                    <p>Backend-Ecommerce</p>
+                    <p>API-Ecommerce</p>
                     <span>
                         <Button className='me-3' href="https://github.com/marianohlopez/backend-ecommerce" target="_blank"
                             variant="outline-secondary">CODE</Button>
