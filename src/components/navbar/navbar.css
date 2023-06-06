@@ -8,19 +8,6 @@
     color: #FFB800 !important;
 }
 
-.btnNavBar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 590px;
-    z-index: 1;
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 18px;
-    line-height: 36px;
-    padding-top: 10px;
-}
-
 .btnNavActive {
     color: white;
     text-decoration: none;
@@ -46,12 +33,41 @@ li {
         line-height: 70px;
     }
 
+    .navbar-toggler {
+        margin: 10px;
+    }
+
+    .fontHamburguer {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding-bottom: 50px;
+        max-width: 100% !important;
+    }
+
+    .navbar-toggler {
+        padding: 1px 1px !;
+    }
+
     .navBar {
         height: 0px;
         --bs-navbar-padding-y: 0rem !important;
     }
 
+    .nav-link {
+        color: #FFB800 !important;
+    }
+
     .btnNavActive {
         color: white;
+    }
+
+    .btnNavBar {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-align: center;
+        width: auto;
+        font-size: 25px;
+        font-weight: bolder;
+        line-height: 70px;
     }
 }
