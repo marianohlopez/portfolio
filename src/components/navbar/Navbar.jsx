@@ -12,6 +12,7 @@ const MyNavbar = () => {
     const darkFont = () => font === false? setFont('fontHamburguer') : setFont(false);
 
     return (
+        
         <>
             <Navbar onToggle={darkFont} className='navBar sticky-top' variant="dark" expand="lg">
                 <Container className={font}>
