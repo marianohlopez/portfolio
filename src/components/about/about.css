@@ -22,6 +22,7 @@
     background-image: linear-gradient(to right, #0a192f, #325180);
     padding: 20px;
     margin: 15px;
+    text-align: justify;
 }
 
 @media (max-width: 768px) {

@@ -8,7 +8,7 @@ const About = () => {
         <div className='bio'>
           <p>
             Soy un Desarrollador Full Stack con experiencia en proyectos freelance.
-            Soy apasionado por la música y la tecnología y cuento con amplia experiencia en docencia.
+            Soy un apasionado por la tecnología y la música, y cuento con amplia experiencia en docencia.
             Mi objetivo es seguir creciendo en todo lo relacionado al desarrollo de software. <br/>
             Soy una persona muy organizada y metódica, me gustan los desafíos y, por sobre todo, 
             soy tenaz y perseverante en los objetivos que me propongo.
