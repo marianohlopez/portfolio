@@ -64,9 +64,15 @@
     }
 
     .home {
+        height: 60vh;
+        padding: 6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .home {
         background-image:
             linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-            url("./fondo6.jpg");
-        height: 60vh;
+            url("./fondoMobile.jpg");
     }
 }
