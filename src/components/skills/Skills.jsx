@@ -30,6 +30,10 @@ const Skills = () => {
                 <p>BOOTSTRAP</p>
             </div>
             <div className="imgCont">
+                <img src="./assets/skills/tailwind.png" alt="tailwind icon" />
+                <p>TAILWIND</p>
+            </div>
+            <div className="imgCont">
                 <img src="./assets/skills/github.png" alt="github icon" />
                 <p>GITHUB</p>
             </div>
