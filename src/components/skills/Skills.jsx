@@ -18,6 +18,10 @@ const Skills = () => {
                 <p>JAVASCRIPT</p>
             </div>
             <div className="imgCont">
+                <img src="./assets/skills/typescript.png" alt="js icon" />
+                <p>TYPESCRIPT</p>
+            </div>
+            <div className="imgCont">
                 <img src="./assets/skills/python.png" alt="python icon" />
                 <p>PYTHON</p>
             </div>
