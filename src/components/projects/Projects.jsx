@@ -7,6 +7,18 @@ const Projects = () => {
         <h3 id="projects" className="title">Proyectos</h3>
         <div className="projectsCont">
             <div className="projectImg">
+                <img src="./assets/projects/app-notes.png" alt="app-notes image" />
+                <div>
+                    <p>App-Notes</p>
+                    <span>
+                        <Button className='me-3' href="https://github.com/marianohlopez/app-notes" target="_blank"
+                            variant="outline-secondary">CODE</Button>
+                        <Button href="https://app-notes-pi.vercel.app" target="_blank"
+                            variant="outline-secondary">APP</Button>
+                    </span>
+                </div>
+            </div>
+            <div className="projectImg">
                 <img src="./assets/projects/backend-ecommerce.png" alt="backend-ecommerce image" />
                 <div>
                     <p>API-Ecommerce</p>
