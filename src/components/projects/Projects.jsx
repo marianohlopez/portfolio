@@ -85,7 +85,7 @@ const Projects = () => {
                     <span>
                         <Button className='me-3' href="https://github.com/marianohlopez/Proyecto-web" target="_blank"
                             variant="outline-secondary">CODE</Button>
-                        <Button href="https://yogamariaesther.online/" target="_blank"
+                        <Button href="https://institutodeyogamariaesther.netlify.app" target="_blank"
                                 variant="outline-secondary">APP</Button>
                     </span>
                 </div>
