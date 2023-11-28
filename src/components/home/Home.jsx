@@ -8,6 +8,7 @@ const Home = () => {
   const handleDownloadCV = () => {
     const link = document.createElement('a');
     link.href = cvFile;
+    link.type = 'application/pdf';
     link.download = 'CV-MarianoLopez-Fullstack.pdf';
     link.click();
   };
