@@ -55,6 +55,18 @@ const Projects = () => {
                 </div>
             </div>
             <div className="projectImg">
+                <img src="./assets/projects/rick-morty.png" alt="rick-morty image" />
+                <div>
+                    <p>Rick & Morty App</p>
+                    <span>
+                        <Button className='me-3' href="https://github.com/marianohlopez/rick-morty" target="_blank"
+                            variant="outline-secondary">CODE</Button>
+                        <Button href="https://rick-morty-chi-sepia.vercel.app/" target="_blank"
+                                variant="outline-secondary">APP</Button>
+                    </span>
+                </div>
+            </div>
+            <div className="projectImg">
                 <img src="./assets/projects/weather.png" alt="weather image" />
                 <div>
                     <p>Weather App</p>
