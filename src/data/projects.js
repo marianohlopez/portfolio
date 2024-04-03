@@ -17,7 +17,7 @@ const projects = [
     name: "Relay-Website",
     image: "./assets/projects/relay.png",
     githubLink: "https://github.com/marianohlopez/relay",
-    appLink: "https://relay.com.ar/",
+    appLink: "https://relay-orcin.vercel.app/",
     alt: "relay image"
   },
   {
