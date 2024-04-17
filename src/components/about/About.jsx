@@ -7,7 +7,7 @@ const About = () => {
         <h2>Acerca de mi</h2>
         <div className='bio'>
           <p>
-            Soy Desarrollador Full Stack con experiencia en proyectos freelance. 
+            Soy Desarrollador Full Stack con experiencia en proyectos freelance y como tutor de cursos de programación. 
             Me apasiona la programación integral de aplicaciones web y me especializo en el desarrollo Frontend y Backend. Me encanta la tecnología y la música y cuento con amplia experiencia en docencia. 
             Mi objetivo es seguir creciendo en todo lo relacionado al desarrollo de software. <br/>
             Soy una persona muy organizada y metódica, me gustan los desafíos y, por sobre todo, 
