@@ -11,7 +11,7 @@ const Footer = () => {
             <span className="mb-3 mb-md-0 fw-bold">&copy; 2023 Mariano López</span>
             </div>
             <ul className="nav col-md-4 justify-content-center justify-content-md-end list-unstyled d-flex">
-                <li className="ms-3"><a href="https://www.linkedin.com/in/mariano-hugo-l%C3%B3pez/" target="_blank">
+                <li className="ms-3"><a href="https://www.linkedin.com/in/mariano-hugo-lopez/" target="_blank">
                     <FaLinkedin size={30} style={{ color: '#FFB800' }} /></a></li>
                 <li className="ms-3"><a href="https://github.com/marianohlopez" target="_blank">
                     <FaGithub size={30} style={{ color: '#FFB800' }} /></a></li>
