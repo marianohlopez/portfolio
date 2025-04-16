@@ -20,9 +20,19 @@ const skills = [
     name: "TYPESCRIPT"
   },
   {
+    image: "./assets/skills/node.png",
+    alt: "node icon",
+    name: "NODEJS"
+  },
+  {
     image: "./assets/skills/python.png",
     alt: "python icon",
     name: "PYTHON"
+  },
+  {
+    image: "./assets/skills/csharp.png",
+    alt: "c# icon",
+    name: "C#"
   },
   {
     image: "./assets/skills/react.png",
@@ -45,19 +55,19 @@ const skills = [
     name: "GITHUB"
   },
   {
-    image: "./assets/skills/node.png",
-    alt: "node icon",
-    name: "NODEJS"
+    image: "./assets/skills/mysql.png",
+    alt: "mysql icon",
+    name: "MYSQL"
+  },
+  {
+    image: "./assets/skills/sqlserver.png",
+    alt: "sql server icon",
+    name: "SQL SERVER"
   },
   {
     image: "./assets/skills/mongo.png",
     alt: "mongo icon",
     name: "MONGO"
-  },
-  {
-    image: "./assets/skills/mysql.png",
-    alt: "mysql icon",
-    name: "MYSQL"
   },
   {
     image: "./assets/skills/firebase.png",
