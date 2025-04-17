@@ -1,4 +1,19 @@
-const projects = [
+export const projects = [
+  {
+    name: "Clinica-SePrice",
+    image: "./assets/projects/clinica-seprice.png",
+    githubLink: "https://github.com/marianohlopez/ClinicaSePrice",
+    alt: "clinica seprice image"
+  },
+  {
+    name: "Sport-Club",
+    image: "./assets/projects/sport-club.png",
+    githubLink: "https://github.com/tommyHellraiser/SportsClubProject",
+    alt: "sport-club image"
+  }
+]
+
+export const webProjects = [
   {
     name: "App-Notes",
     image: "./assets/projects/app-notes.png",
@@ -63,5 +78,3 @@ const projects = [
     alt: "currency-converter image"
   },
 ]
-
-export default projects;

@@ -1,5 +1,5 @@
 import "./projects.css"
-import projects from "../../data/projects";
+import {projects, webProjects} from "../../data/projects";
 import Button from 'react-bootstrap/Button';
 
 const Projects = () => {
@@ -8,6 +8,18 @@ const Projects = () => {
         <h3 id="projects" className="title">Proyectos</h3>
         <div className="projectsCont">
             {projects.map((project) => (
+                <div className="projectImg" key={project.name}>
+                    <img src={project.image} alt={project.alt} />
+                    <div>
+                        <p>{project.name}</p>
+                        <span>
+                            <Button href={project.githubLink} target="_blank"
+                                variant="outline-secondary">CODE</Button>
+                        </span>
+                    </div>
+                </div>
+            ))}
+            {webProjects.map((project) => (
                 <div className="projectImg" key={project.name}>
                     <img src={project.image} alt={project.alt} />
                     <div>
