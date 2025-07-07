@@ -17,7 +17,7 @@ const Home = () => {
     <div id="home" className="home">
         <div className="homeContainer">
             <h1>Hola, soy Mariano Lopez</h1>
-            <h2>Soy Full Stack Developer.</h2>
+            <h2>Soy Desarrollador de Software.</h2>
             <Button onClick={handleDownloadCV} className="downloadCv" variant="outline-warning">
               Descargar CV <BsFillPersonLinesFill size={20} /></Button>
         </div>
