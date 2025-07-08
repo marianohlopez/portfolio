@@ -1,6 +1,6 @@
 import "./home.css"
 import Button from 'react-bootstrap/Button';
-import cvFile from './CV-MarianoLopez-Fullstack.pdf'
+import cvFile from './CV-MarianoLopez.pdf'
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
     const link = document.createElement('a');
     link.href = cvFile;
     link.type = 'application/pdf';
-    link.download = 'CV-MarianoLopez-Fullstack.pdf';
+    link.download = 'CV-MarianoLopez.pdf';
     link.click();
   };
 

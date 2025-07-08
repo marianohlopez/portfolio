@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 const Projects = () => {
   return (
     <>
-        <h3 id="projects" className="title">Proyectos</h3>
+        <h3 id="projects" className="title">Proyectos de Software</h3>
         <div className="projectsCont">
             {projects.map((project) => (
                 <div className="projectImg" key={project.name}>
