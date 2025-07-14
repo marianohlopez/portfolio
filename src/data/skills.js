@@ -74,6 +74,11 @@ const skills = [
     alt: "firebase icon",
     name: "FIREBASE"
   },
+  {
+    image: "./assets/skills/powerbi.png",
+    alt: "power bi icon",
+    name: "POWER BI"
+  },
 ]
 
 export default skills;

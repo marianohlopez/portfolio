@@ -1,3 +1,29 @@
+export const pipelines = [
+  {
+    name: "Pipeline Alerta contable",
+    image: "./assets/projects/pipeline-alertacont.png",
+    githubLink: "https://github.com/marianohlopez/ailes-cont",
+    alt: "Pipeline Alerta contable image"
+  }
+]
+
+export const webDashboards = [
+  {
+    name: "Dashboard Documentación",
+    image: "./assets/projects/dash-docu.png",
+    githubLink: "https://github.com/marianohlopez/ailes-docu",
+    appLink: "https://ailes-documentacion.streamlit.app",
+    alt: "Dashboard Documentación image"
+  },
+  {
+    name: "Dashboard Contable",
+    image: "./assets/projects/dash-contable.png",
+    githubLink: "https://github.com/marianohlopez/ailes-fact-os",
+    appLink: "https://ailes-contable.streamlit.app",
+    alt: "Dashboard Contable image"
+  }
+]
+
 export const projects = [
   {
     name: "Clinica-SePrice",
