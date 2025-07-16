@@ -24,6 +24,15 @@ export const webDashboards = [
   }
 ]
 
+export const dashboards = [
+  {
+    name: "Power BI Salud Mental",
+    image: "./assets/projects/salud-mental.png",
+    githubLink: "https://github.com/marianohlopez/proyecto-salud",
+    alt: "Power BI Salud Mental"
+  }
+]
+
 export const projects = [
   {
     name: "Clinica-SePrice",
