@@ -14,13 +14,6 @@ export const webDashboards = [
     githubLink: "https://github.com/marianohlopez/ailes-docu",
     appLink: "https://ailes-documentacion.streamlit.app",
     alt: "Dashboard Documentación image"
-  },
-  {
-    name: "Dashboard Contable",
-    image: "./assets/projects/dash-contable.png",
-    githubLink: "https://github.com/marianohlopez/ailes-fact-os",
-    appLink: "https://ailes-contable.streamlit.app",
-    alt: "Dashboard Contable image"
   }
 ]
 
