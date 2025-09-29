@@ -4,7 +4,13 @@ export const pipelines = [
     image: "./assets/projects/pipeline-alertacont.png",
     githubLink: "https://github.com/marianohlopez/ailes-cont",
     alt: "Pipeline Alerta contable image"
-  }
+  },
+  {
+    name: "Pipeline Coordinación escolar",
+    image: "./assets/projects/pipeline-coordinacion.png",
+    githubLink: "https://github.com/marianohlopez/coordinacion-reporte_general",
+    alt: "Pipeline Coordinacion escolar image"
+  },
 ]
 
 export const webDashboards = [
